@@ -56,5 +56,5 @@ export {
   getCat,
   getCats,
   upsertCat,
-  validateCat
+  validate
 }
