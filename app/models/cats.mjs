@@ -32,7 +32,7 @@ const getCats = async function () {
   return cats
 }
 
-const validateCat = {
+const validate = {
   shared (req) {
     return validator(req, Cat)
   },
